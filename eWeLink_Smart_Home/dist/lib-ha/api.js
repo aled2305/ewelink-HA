@@ -183,7 +183,7 @@ function getHaDeviceList() {
                 case 4: return [3, 6];
                 case 5:
                     err_1 = _a.sent();
-                    logger_1.logger.error("getHaDeviceList error: " + err_1 + uiid);
+                    logger_1.logger.error("getHaDeviceList error: " + err_1 + haDeviceList[i].deviceData.name);
                     return [2, -1];
                 case 6: return [2];
             }
